@@ -1,7 +1,11 @@
+import { useState } from 'react'
+import {ShopContext } from '../context/ShopContext'
 
 const ShopCatefory = () => {
     return (
-        <div>ShopCatefory</div>
+        <div className="shop-category">
+
+        </div>
     )
 }
 
