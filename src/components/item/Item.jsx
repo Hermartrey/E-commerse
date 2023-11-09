@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom'
 import './Item.css'
-const Item = ({name,image,new_price,old_price}) => {
+
+const Item = ({name,image,new_price,old_price,id}) => {
     return (
         <div className="item">
-            <img src={image} alt="" />
+            <Link to={`/product/${id}`}><img onClick={window.scrollTo(0,0)} src={image} alt="" /></Link>
             <p>{name}</p>
             <div className="item-prices">
                 <div className="item-price-new">

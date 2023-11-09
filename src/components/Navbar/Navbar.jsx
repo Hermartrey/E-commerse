@@ -17,13 +17,13 @@ const Navbar = () => {
         {
             id: 1, 
             category: 'men',
-            path: "/men"
+            path: "/mens"
 
         },
         {
             id: 2, 
             category: 'women',
-            path: "/women" 
+            path: "/womens" 
         },
         {
             id: 3,
